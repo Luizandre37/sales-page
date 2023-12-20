@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,800&display=swap');
+
+*,*::after ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+}
+ body{
+    font-family:Poppins;
+    background: #030303;
+ }
+.hero{
+
+background-image: url(../img/hero.png);
+background-size: cover;
+background-repeat: repeat;
+width: 100%;
+height: 838px;
+
+h1{
+    max-width: 577px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 72px;
+    line-height: 120%;
+    span{
+    background: linear-gradient(180deg, #D59332 0%, #BB8330 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+}
+p{
+    font-size: 24px;
+    line-height: 130%;
+}
+}
+.container{
+    margin:0 auto;
+    max-width: 1440px; 
+    
+}
+.flex{
+    display: flex;
+    flex: 1 1 auto;
+
+
+}
+.flex-col{
+flex-direction: column;
+
+
+}
+
+.align-center{
+align-items: center;
+
+}
+.justify-center{
+ justify-content: center;
+ 
+}
+.gap-2{
+    gap: 2px;
+}
+.gap-4{
+    gap: 4px;
+}
+.gap-6{
+    gap: 6px;
+}
+.border{
+    border:1px solid red;
+}
+h1,p{
+    color: white;
+
+}
+.button{
+    max-width: 425px;
+    width: 100%;
+    height: 70px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: var(--LARANJA-PRODUTO, radial-gradient(53.53% 100% at 50% 0%, rgba(255, 255, 255, 0.70) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(180deg, #D59332 0%, #BB8330 100%));
+    box-shadow: 0px 4px 100px 0px #D79534, 0px 4px 0px 0px #D79535;
+}
+.h-full{
+height: 100%;
+}
+.w-full{
+    max-width: 100%;
+    width: 100% !important;
+}
+.video{
+    position: relative;
+    top: -90px;
+}
+.curso{
+    max-width: 664px;
+    margin: 0 auto ;
+    h2{
+        color: white;
+        font-size: 36px;
+        text-align: center;
+        span{
+            background: linear-gradient(180deg, #D59332 0%, #BB8330 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    
+}
+.aula{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius:4px;
+
+    border: 2px solid #D59332;
+    h5{
+        color: white;
+        font-size: 20px;
+     
+    }
+    span{
+        color: #D59332;
+        font-size: 20px;
+    }
+}
+.cards{
+    display: grid;
+    gap:16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    .card{
+        height: 416px;
+        width: 100%;
+        opacity: 0.2;
+        background: #7A7A7A;
+      
+    }
+}
+.depoimentos{
+    text-align: center;
+    h1{
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
+.mt-60{
+    margin-top: 60px;
+}
+ .bonus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    .content , .thumb{
+        color: white;
+        flex: 1 1 360px;
+        h2{
+            font-size: 36px;
+            font-weight: bold;
+            span{
+                color: #D59332;
+            }
+
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 2%;
+        }
+    }
+ }
+ .thumb{
+    text-align: center;
+ }
+ .sobre{
+    height:800px;
+    background-size: cover;
+
+    background-image: url(../img/Hero-Sobre.png);
+ }
+
+ .sobre_container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    .content , .thumb{
+        max-width: 479px;
+        width: 100%;
+        margin-left: auto;
+        color: white;
+        flex: 1 1 360px;
+        h2{
+            font-size: 36px;
+            font-weight: bold;
+            span{
+                color: #D59332;
+            }
+
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 2%;
+        }
+
+    }
+ }
+
+
