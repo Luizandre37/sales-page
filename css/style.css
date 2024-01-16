@@ -219,4 +219,149 @@ h1, p {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 2%;
+}
+
+.texte-white {
+  color: white;
+}
+
+.texte-gradiente {
+  color: #BB8330;
+}
+
+.Ofertas {
+  height: 100%;
+  width: 100%;
+  padding: 250px 24px;
+}
+
+.thumb-ofertas {
+  width: 540px;
+  height: auto;
+  border: 5px solid #BB8330;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 46px 24px;
+  justify-content: center;
+  align-items: center;
+}
+.thumb-ofertas > img {
+  position: absolute;
+  top: -300px;
+}
+
+.Ofertas-descrition {
+  margin-top: 80px;
+}
+.Ofertas-descrition h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.Ofertas-descrition h2 span {
+  color: #BB8330;
+}
+
+.lista-de-ofertas {
+  list-style: none;
+}
+.lista-de-ofertas li {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.preco {
+  text-align: center;
+}
+.preco p {
+  font-size: 16px;
+}
+.preco p span {
+  color: red;
+}
+.preco p:last-child {
+  font-size: 16px;
+  font-weight: 400;
+}
+.preco h1 {
+  background: var(--LINEAR, linear-gradient(91deg, #FEDF8F 5.07%, #EC7641 87.85%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+}
+.preco img {
+  margin-top: 16px;
+}
+
+.acesso {
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  background: var(--LINEAR, linear-gradient(91deg, #FEDF8F 5.07%, #EC7641 87.85%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: var(--LARANJA-PRODUTO, linear-gradient(180deg, #D59332 0%, #BB8330 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.helder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.helder h5 {
+  font-size: 18px;
+  background: var(--LARANJA-PRODUTO, linear-gradient(180deg, #D59332 0%, #BB8330 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.helder h1 {
+  font-size: 36px;
+  background: var(--LARANJA-PRODUTO, linear-gradient(180deg, #D59332 0%, #BB8330 100%));
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pergunta-titulo {
+  max-width: 920px;
+  border-bottom: 1px solid #F2F2F2;
+  color: white;
+  margin: 0 auto;
+}
+
+.helder-helder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.content {
+  font-size: 16px;
+  margin-top: 22px;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+}
+footer img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
