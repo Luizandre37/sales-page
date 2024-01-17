@@ -1,0 +1,23 @@
+$primary-normal: #82269E;
+$primary-dark: #701F88;
+$primary-light: #9C4FB4;
+
+
+:root {
+    --gold-color: linear-gradient(45deg, #ffd700, #ffa500);
+  }
+.orange {
+    background: linear-gradient(180deg, #D59332 0%, #BB8330 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gold {
+    color:#E9CDA8;
+    
+}
+
+.border-gold{
+    
+    border: 2px solid #E9CDA8;
+}

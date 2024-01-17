@@ -1,0 +1,24 @@
+.button-gold{
+    width: 381px;
+    height: 80px;
+    border-radius: 8px;
+    background: var(--GOLD-2, linear-gradient(91deg, #F6DF93 4.34%, #FCEAC6 51.42%, #FDCF7A 99.04%), #C4C4C4);
+    box-shadow: 0px 3px 0px 0px #FED285, 0px 0px 9px 6px #F9EABB inset, 0px 20px 11px -12px rgba(253, 208, 125, 0.66);
+    border: 0px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin-top:36px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins;
+    color: #5C312B;
+    text-transform: uppercase;
+
+    &:hover{
+        opacity: 0.6;
+    }
+
+    @include responsive(s) {
+        width: 100%;
+    }
+}
