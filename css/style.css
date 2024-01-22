@@ -347,8 +347,17 @@
   font-style: normal;
   font-weight: 600;
 }
-.preco img {
+
+.precofooter {
   margin-top: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-direction: column;
+}
+.precofooter img {
+  height: 16px;
+  width: 16px;
 }
 
 .acesso {
@@ -414,6 +423,39 @@ footer {
 }
 footer img {
   width: 100%;
+}
+
+.pergunta {
+  border-bottom: 1px solid #F2F2F2;
+}
+.pergunta .conteudo {
+  display: none;
+}
+.pergunta .conteudo p {
+  color: #F2F2F2;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pergunta .Titulo {
+  font-size: 22px;
+  font-weight: 500;
+  color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+}
+.pergunta .Titulo img {
+  height: 24px;
+  width: 24px;
+}
+
+.perguntas {
+  padding: 96px 24px;
+  height: auto;
+  width: 100%;
+}
+
+.show {
+  display: block important;
 }
 
 h1 {

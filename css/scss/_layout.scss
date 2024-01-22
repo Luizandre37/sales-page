@@ -429,9 +429,23 @@ $container-s: 540px;
         font-style: normal;
         font-weight: 600;
     }
+
+
+ }
+ .precofooter{
+
     img{
-        margin-top: 16px ;
+        height:16px;
+        width: 16px
     }
+
+    margin-top: 16px ;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: column;
+
+
 
  }
  .acesso{
@@ -496,3 +510,42 @@ background-clip: text;
         width: 100%;
     }
  }
+ .pergunta{
+    .conteudo{
+        display:none;
+
+        p{
+            color: #F2F2F2;
+            font-size: 16px;
+            font-weight:400;
+
+        }
+    
+    }
+    .Titulo{
+        font-size: 22px;
+        font-weight: 500;
+        color: #F2F2F2;
+        display: flex;
+        justify-content: space-between;
+        img{
+            height: 24px;
+            width: 24px;
+        }
+
+    }
+    border-bottom: 1px solid #F2F2F2;
+
+
+ }
+
+ .perguntas{
+    padding: 96px 24px;
+    height: auto;
+    width: 100%;
+ }
+
+ .show{
+    display: block important; 
+ }
+ 
