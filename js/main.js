@@ -1,15 +1,15 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var perguntas = document.querySelectorAll('.pergunta');
 
-  function PerguntaFuncaoDeClique() {
-    alert("Você clicou no botão!");
-  }
+  perguntas.forEach(function (pergunta) {
+      var titulo = pergunta.querySelector('.Titulo');
+      var conteudo = pergunta.querySelector('.conteudo');
+      var iconePergunta = pergunta.querySelector('.iconePergunta');
 
-  document.getElementById("PerguntaBotao").addEventListener("click", PerguntaFuncaoDeClique);
+      titulo.addEventListener('click', function () {
+          conteudo.classList.toggle('show');
 
-  function toggleClasse() {
-
-    var perguntaconteudo  = document.getElementById("perguntaconteudo");
-
-    
-    perguntaconteudo.classList.toggle("show");
-  }
-  document.getElementById("perguntaconteudo").addEventListener("click", toggleClasse);
+          iconePergunta.classList.toggle('perfil-aberto', conteudo.classList.contains('show'));
+      });
+  });
+});

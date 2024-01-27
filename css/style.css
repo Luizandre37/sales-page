@@ -428,9 +428,6 @@ footer img {
 .pergunta {
   border-bottom: 1px solid #F2F2F2;
 }
-.pergunta .conteudo {
-  display: none;
-}
 .pergunta .conteudo p {
   color: #F2F2F2;
   font-size: 16px;
@@ -454,10 +451,41 @@ footer img {
   width: 100%;
 }
 
-.show {
-  display: block important;
+.conteudo {
+  display: none;
+}
+.conteudo.show {
+  display: block !important;
 }
 
+.perfil-aberto {
+  transform: rotate(180deg);
+}
+
+.container, .hero .hero-container, .aulas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botoes-container {
+  margin-top: 20px;
+}
+
+.button-gold, .content button {
+  background-color: gold;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .button-gold, .content button {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
 h1 {
   font-family: Poppins;
   font-size: 64px;
